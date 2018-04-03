@@ -1,0 +1,85 @@
+.gallery
+{
+    font-size: 40px;  
+    font-family: 'Berkshire Swash', cursive;
+    color:crimson;
+    
+}
+.space
+{
+    height: 20px;
+}
+.prisma
+{
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;    
+    color: #EE3135;
+}
+td
+{
+    color: #b436db;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.big
+{
+    color: #b436db;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.td
+{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Karla', sans-serif;
+}
+.email
+{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Bree Serif', serif;
+}
+.footHead
+{
+    font-size: 17px;
+    color: firebrick;
+    font-weight: bold;
+}
+.news
+{
+    background-color: #86dd4f;
+    color: black;
+    font-weight: bolder;
+}
+.switch
+{
+    background-color:darkorange; 
+    font-weight: bold
+}  
+.td1
+{
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.section
+{
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+    color:darkturquoise;  
+    font-weight: bold
+}
+.copy
+{
+    font-size: 15px;
+    font-weight: 600
+}
+.foot
+{
+    background-color: #e2ddd9;
+}

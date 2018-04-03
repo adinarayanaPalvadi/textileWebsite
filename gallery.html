@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Madhav Textiles</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css" />
+        <link rel="stylesheet" href="gallery.css" >
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Berkshire+Swash|Fira+Sans|Josefin+Sans|Rubik|Karla|Bree+Serif" rel="stylesheet">
+<!-- UIkit JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
+        
+
+    </head>
+    <body>
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980;">
+        <div class="uk-navbar-left">
+
+            <ul class="uk-navbar-nav data-uk" data-uk-scrollspy-nav="{closest:'li'}">
+                <li class="uk-active"><a href="index.php" style="font-weight: 500; color: #5c3fff;font-size: 18px;font-family: 'Josefin Sans', sans-serif;"><span uk-icon="icon: home; ratio: 0" class="uk-margin-small-right uk-margin-small-bottom" style="color: #ff5f49"></span>Home</a></li>
+                <li><a href="gallery.html" style="font-weight: 500; color: #5c3fff;font-size: 18px;font-family: 'Josefin Sans', sans-serif;"><span uk-icon="icon: image; ratio: 0" class="uk-margin-small-right uk-margin-small-bottom" style="color: #ff5f49"></span>Gallery</a></li>
+                 <li><a href="signIn.php" style="font-weight: 500; color: #5c3fff;font-size: 18px;font-family: 'Josefin Sans', sans-serif;"><span uk-icon="icon: cart; ratio: 0" class="uk-margin-small-right uk-margin-small-bottom" style="color: #ff5f49"></span>Order Now</a></li> 
+            </ul>
+
+        </div>
+        <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav">
+            <li class="uk-margin-right"><a href="signIn.php" style="font-weight: 600;font-size: 20px;color: #2762f7" ><span uk-icon="icon: sign-in; ratio: 1.3" class="uk-margin-small-right" style="color: #ff5f49"></span>Sign in</a></li>
+          </ul>
+        </div>
+    </nav>
+</div>
+         <div class="uk-text-center">
+        <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+            <img src="./images/gallery.jpg" alt="" style="height: 600px;width: 1270px;">
+            <div class="uk-position-center">
+                <span class="uk-transition-fade gallery">Gallery Section</span>
+            </div>
+        </div>
+        
+    </div>
+    <div class="space"></div>
+    <section>
+        <div class="uk-container">
+            <div class="uk-text-center uk-margin-bottom section">
+                Check Our Product Section
+            </div>
+        </div>
+    </section>
+    <section  >
+    <div class="space"></div>
+    <div class="uk-container"><center>
+        <div uk-switcher="animation: uk-animation-fade">
+    <button class="uk-button uk-button-default switch" type="button">Mens</button>
+    <button class="uk-button uk-button-default switch" type="button">Womens</button>
+    <button class="uk-button uk-button-default switch" type="button">Children</button>
+       <button class="uk-button uk-button-default switch" type="button">Other Section</button>
+        </div>
+
+        <ul class="uk-switcher uk-margin">
+            <li>
+             <div class="uk-text-center uk-margin-bottom prisma">
+                 Prisma Products
+             </div>
+              <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider>
+
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-4@m uk-grid">
+                    <li>
+                        <div class="uk-card" >
+                            <img src="./images/galleryPrisma.jpg" alt="">
+                            <div class=" uk-card-body"  style="color: black">
+                            <div>
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Polo T-Shirt</td></tr>
+                            </table>
+                            </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrisma1.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Track Pant</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrisma2.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Slim Fit</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrisma3.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Bermuda</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrisma4.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Capri</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous" style="color: firebrick"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" style="color: firebrick" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>  
+               <div class="uk-text-center uk-margin-bottom prisma">
+                 Poomex (Inner wears)
+             </div>
+              <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider>
+
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-4@m uk-grid">
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPoomex.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Poomex</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>French IE</td></tr>
+                            </table>
+<!--
+                                Item Name : Prisma<br>
+                                Brand : Poomex<br>
+                                Type :POLO T-Shirt
+-->
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPoomex1.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Poomex</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>French OE</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPoomex3.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Poomex</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Elegant Brief</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPoomex4.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Poomex</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>ComfortTrunk</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPoomex5.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name</td><td>&nbsp;Poomex</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Comfort(P)</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPoomex6.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Poomex</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>ElegantTrunk</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPoomex7.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Poomex</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Gym Vest</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPoomex8.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Poomex</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Golden Rn</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPoomex9.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Poomex</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Flec Rib(RN)</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPoomex10.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Poomex</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Premium Rn</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPoomex11.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Poomex</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Premium Rns</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous" style="color: firebrick"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" style="color: firebrick" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+        </div>  
+                
+            </li>
+            <li>
+                <div class="uk-text-center uk-margin-bottom prisma">
+                 Prisma Products
+             </div>
+              <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider>
+
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-4@m uk-grid">
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW1.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Leggings</td></tr>
+                            </table>
+<!--
+                                Item Name : Prisma<br>
+                                Brand : Poomex<br>
+                                Type :POLO T-Shirt
+-->
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW2.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td class="big">Leggings Capri</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW3.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td class="big">Jeggings Regular</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW4.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Lounge Wear</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW5.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Camisole</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW6.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td class="big">Ankle Leggings</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW7.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td class="big">Jeggings Capri</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW8.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td class="big">Type </td><td class="big">Loungewear(Double piping)</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW9.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td >Type </td><td class="big">Loungewear Capri</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW10.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td >Type </td><td class="big">Loungewear</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous" style="color: firebrick"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" style="color: firebrick" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>  
+           <div class="uk-text-center uk-margin-bottom prisma">
+                 Poomex Products(Inner wears)
+             </div>
+              <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider>
+
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-4@m uk-grid">
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW1.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Leggings</td></tr>
+                            </table>
+<!--
+                                Item Name : Prisma<br>
+                                Brand : Poomex<br>
+                                Type :POLO T-Shirt
+-->
+                            </div>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW1.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Leggings</td></tr>
+                            </table>
+<!--
+                                Item Name : Prisma<br>
+                                Brand : Poomex<br>
+                                Type :POLO T-Shirt
+-->
+                            </div>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW1.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Leggings</td></tr>
+                            </table>
+<!--
+                                Item Name : Prisma<br>
+                                Brand : Poomex<br>
+                                Type :POLO T-Shirt
+-->
+                            </div>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW1.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Leggings</td></tr>
+                            </table>
+<!--
+                                Item Name : Prisma<br>
+                                Brand : Poomex<br>
+                                Type :POLO T-Shirt
+-->
+                            </div>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="uk-card">
+                            <img src="./images/galleryPrismaW1.jpg" alt="">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Prisma</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td>Leggings</td></tr>
+                            </table>
+<!--
+                                Item Name : Prisma<br>
+                                Brand : Poomex<br>
+                                Type :POLO T-Shirt
+-->
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+                  <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous" style="color: firebrick"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" style="color: firebrick" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+                
+            </li>
+            <li>
+               <div class="uk-text-center uk-margin-bottom prisma">
+                 MSP Products
+             </div>
+              <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider>
+
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-4@m uk-grid">
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/product2.jpg" alt=""  style="width: 100%;height: 300px;">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;MSP</td></tr>
+                                <tr><td>Brand </td><td>MSP</td></tr>
+                                <tr><td>Type </td><td>Round neck</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card" switch>
+                            <img src="./images/topsandtees.jpg" alt=""  style="width: 100%;height: 300px;">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;MSP</td></tr>
+                                <tr><td>Brand </td><td>MSP</td></tr>
+                                <tr><td>Type </td><td>Tops and Tees</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/fullsleeve.jpg" alt=""  style="width: 100%;height: 300px;">
+                            <div class=" uk-card-body" style="color: black;">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;MSP</td></tr>
+                                <tr><td>Brand </td><td>MSP</td></tr>
+                                <tr><td>Type </td><td>Full sleeve</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/product2.jpg" alt="" style="width: 100%;height: 300px;">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;MSP</td></tr>
+                                <tr><td>Brand </td><td>MSP</td></tr>
+                                <tr><td>Type </td><td>Round neck</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+                   <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous" style="color: firebrick"></a>
+                     <a class="uk-position-center-right uk-position-small uk-hidden-hover" style="color: firebrick" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+            </li>
+            <li>
+                <div class="uk-text-center uk-margin-bottom prisma">
+                 Other Products
+             </div>
+              <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider>
+
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-4@m uk-grid">
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/lungi.jpg" alt="" style="width: 100%;height: 300px;">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Lungi</td></tr>
+                                <tr><td>Brand </td><td>Mutthu</td></tr>
+                                <tr><td>Type </td><td>Single Lungi</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/meterlungi.jpg" alt="" style="width: 100%;height: 300px;">
+                            <div class=" uk-card-body" style="color: black">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Lungi</td></tr>
+                                <tr><td>Brand </td><td>Muthuu</td></tr>
+                                <tr><td>Type </td><td>Meter Lungi</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <img src="./images/shirt.jpg" alt="" style="width: 100%;height: 300px;">
+                            <div class=" uk-card-body" style="color: black;">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Shirt</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td class="big">White Half shirt</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                       <div class="uk-card">
+                            <img src="./images/shirt.jpg" alt="" style="width: 100%;height: 300px;">
+                            <div class=" uk-card-body" style="color: black;">
+                            <table >
+                                <tr><td>Item Name </td><td>&nbsp;Shirt</td></tr>
+                                <tr><td>Brand </td><td>Poomex</td></tr>
+                                <tr><td>Type </td><td class="big">White Half shirt</td></tr>
+                            </table>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+                   <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous" style="color: firebrick"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" style="color: firebrick" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                </div>
+            </li>
+        </ul>
+        </center>
+    </div>
+    </section>
+    <section>
+        <footer class="foot">
+            <div class="uk-container">
+                <div class="uk-text-center" uk-grid>
+                    <div class="uk-width-1-3@s">
+                        <div class="uk-card  uk-card-body">
+                            <div class="uk-text-left footHead">
+                                Madhav Textiles Cloth & Hosieries
+                            </div>
+                            <div class="space"></div>
+                            <table>
+                                <tr><td class="td"><span uk-icon="location"></span></td><td class="td">Madhav textiles Cloth and Hosieries</td></tr>
+                                <tr><td class="td"></td><td class="td" style="text-align: justify">Panasthota, Mallamma Center</td></tr>
+                                 <tr><td class="td"></td><td class="td"  style="text-align: justify">Narasaraopet, Guntur District</td></tr>
+                                 
+                            </table>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-3@s">
+                        <div class="uk-card  uk-card-body">
+                            <div class="uk-text-center uk-margin-bottom footHead">
+                                Subscribe Our NewsLetter
+                            </div>
+                            <form class="uk-form">
+                                <div class="uk-margin">
+                                    <label for="" class="uk-from-label email">Enter Your email</label><br>
+                                    <div class="uk-form-controls uk-margin-top uk-margin-bottom">
+                                            <input class="uk-input" id="form-stacked-text" type="email" placeholder="Enter Your email">
+                                        </div>
+                                        <button class="uk-button uk-button-default news" onclick="UIkit.notification({message: '<span uk-icon=\'icon: check\'></span> Thank you for subscribing'})">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-3@s">
+                        <div class="uk-card  uk-card-body">
+                            <div class="uk-text-center footHead">
+                                Connect With US
+                            </div>
+                            <div class="space"></div>
+                            <table>
+                                <tr><td class="td"><span uk-icon="receiver"></span></td><td class="td1">9885126229, 9246464229</td></tr>
+                                <tr><td class="td"><span uk-icon="mail"></span></td><td class="td1">madhavtextilesnarasaropet@gmail.com</td></tr>
+                            </table>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="copy">Copy right @2018 All rights are reserved to <span style="color: deeppink;">Madhav textiles</span>, Narasaraopet</div>
+            </div>
+           
+        </footer>
+    </section>
+    </body>
+</html>
